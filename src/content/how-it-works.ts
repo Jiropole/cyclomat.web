@@ -45,9 +45,15 @@ export const concepts: ConceptBlock[] = [
   },
   {
     title: "Keyframes",
+    subtitle: "Shapes that evolve over space",
+    description:
+      "Define multiple states for your shape and Cyclomat will smoothly interpolate between them. Watch plumes, tunnels and sweeps emerge from simple shapes.",
+  },
+  {
+    title: "Animation",
     subtitle: "Shapes that evolve over time",
     description:
-      "Define multiple states for your shape and Cyclomat will smoothly interpolate between them. Watch static geometry come alive as forms morph and transform.",
+      "Switch to animation view to configure random changes to the artwork over time. Watch static geometry come alive as forms morph and transform.",
   },
 ];
 

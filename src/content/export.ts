@@ -18,16 +18,6 @@ export const exportFormats: ExportFormat[] = [
     icon: "image",
   },
   {
-    title: "Vector PDF",
-    description: "Export as a scalable vector PDF for infinite resolution.",
-    details: [
-      "Infinitely scalable without quality loss",
-      "Perfect for large-format printing",
-      "Compatible with design tools like Illustrator and Figma",
-    ],
-    icon: "file-text",
-  },
-  {
     title: "Transparent Background",
     description: "Export with no background for compositing and layering.",
     details: [
@@ -36,6 +26,26 @@ export const exportFormats: ExportFormat[] = [
       "Ideal for overlays and design assets",
     ],
     icon: "square-dashed-bottom",
+  },
+  {
+    title: "Animated Movie",
+    description: "Export animated artwork as a high-resolution video.",
+    details: [
+      "Resolution from 1K to 8K pixels",
+      "Unlimited duration and perfect looping",
+      "Intriguing basis for meditation, video projects, or live projection",
+    ],
+    icon: "file-text",
+  },
+  {
+    title: "Vector PDF",
+    description: "Export as a scalable vector PDF for infinite resolution.",
+    details: [
+      "Infinitely scalable without quality loss",
+      "Perfect for large-format printing",
+      "Compatible with design tools like Illustrator and Figma",
+    ],
+    icon: "file-text",
   },
   {
     title: "Project File",
@@ -61,6 +71,10 @@ export const useCases = [
   {
     title: "Digital Design Assets",
     description: "Use transparent exports as design elements in presentations, websites, and digital media.",
+  },
+  {
+    title: "Motion Graphics",
+    description: "Generate calm or climactic videos for use in creative motion graphics projects.",
   },
   {
     title: "Creative Collaboration",

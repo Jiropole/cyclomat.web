@@ -23,23 +23,16 @@ export const tutorials: Tutorial[] = [
       },
       {
         step: 2,
-        title: "Set whole-number frequencies",
+        title: "Set arm frequencies",
         description:
-          "Set both arm frequencies to whole numbers, like 3 and 5. Whole numbers produce closed, symmetric shapes.",
-        tip: "Try different ratios: 2:3, 3:5, 4:7. Each creates a distinct shape family.",
+          "Determine frequency ratios by setting arms to whole numbers like 3 or -5. Negative values reverse the direction of spin.",
+        tip: "Try different ratios: 1:4, 2:3, 3:5, 4:7. Each creates a distinct shape family.",
       },
       {
         step: 3,
         title: "Adjust the radius slowly",
         description:
           "Change the radius of the second arm. Watch how the shape stretches and contracts. Small changes create subtle variations within the same family.",
-      },
-      {
-        step: 4,
-        title: "Set completeness to 100%",
-        description:
-          "Make sure the drawing completes its full cycle. At 100%, the shape closes perfectly. Lower values show partial traces.",
-        tip: "A closed shape means the pen has returned to its starting point.",
       },
     ],
   },
@@ -107,37 +100,66 @@ export const tutorials: Tutorial[] = [
     ],
   },
   {
-    id: "motion-keyframes",
-    title: "Motion & Keyframes",
-    subtitle: "Bring your shapes to life with animated transitions",
+    id: "keyframes",
+    title: "Shape & Layout Keyframes",
+    subtitle: "Create colorful shape variations with smoothly interpolating parameters.",
     difficulty: "advanced",
-    outcome: "An evolving artwork that transitions smoothly between states",
+    outcome: "A mathematically precise shape series that transitions smoothly between defined states",
     steps: [
       {
         step: 1,
         title: "Define your first keyframe",
         description:
-          "Set up a shape you like and save it as a keyframe. This is your starting state — the shape the animation begins with.",
+          "Set up a shape you like, which becomes the first keyframe. This is your starting state — the shape the animation begins with.",
       },
       {
         step: 2,
         title: "Create a second keyframe",
         description:
-          "Change the frequency, radius, or phase values and save a second keyframe. Make the changes significant enough to see a clear transformation.",
-        tip: "Changing frequency between keyframes creates the most dramatic morphing effects.",
+          "Duplicate the first keyframe, and change the frequency, radius, or phase values. Make the changes significant enough to see a clear transformation.",
+        tip: "Changing radius and phase between keyframes creates dramatic morphing effects.",
       },
       {
         step: 3,
-        title: "Preview the interpolation",
+        title: "Add more keyframes",
         description:
-          "Play the animation. Cyclomat smoothly interpolates between your keyframes, creating organic transitions that reveal how shapes are related.",
+          "Add additional keyframes to create fades or unusual sweeping effects. Each keyframe is a waypoint — the shape flows from one to the next.",
+        tip: "Three to five keyframes is the sweet spot for mesmerizing shape effects.",
+      },
+    ],
+  },
+  {
+    id: "motion-animation",
+    title: "Motion & Animation",
+    subtitle: "Bring your shapes to life with animated transitions",
+    difficulty: "advanced",
+    outcome: "An evolving animation that remixes still artwork in surprising and mesmerizing ways",
+    steps: [
+      {
+        step: 1,
+        title: "Select the Animated view",
+        description:
+          "Your artwork was already ready for animation, all you have to do is switch the viewing mode",
+      },
+      {
+        step: 2,
+        title: "Adjust primary animation controls",
+        description:
+          "Change the duration of the loop or control the degree of order or chaos in the resulting animation.",
+        tip: "Use the cycle intensity to increase or decrease the overall speed of the animation.",
+      },
+      {
+        step: 3,
+        title: "Preview the animation",
+        description:
+          "Play or scrub through the animation. Cyclomat can show you exactly what will be rendered at each point in the animation.",
       },
       {
         step: 4,
-        title: "Add more keyframes",
+        title: "Adjust advanced settings",
         description:
-          "Add additional keyframes to create longer, more complex animations. Each keyframe is a waypoint — the shape flows from one to the next.",
-        tip: "Three to five keyframes is the sweet spot for mesmerizing loops.",
+          "Control how much random animation is applied to various parameter groups, or configure advanced settings.",
+        tip: "Try turning off all but one of the intensity controls at a time, in order to see how each one affects the whole.",
       },
     ],
   },
