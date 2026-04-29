@@ -20,13 +20,13 @@ export const features: FeatureCardData[] = [
   {
     title: "Harmonic Frequencies",
     description:
-      "Shape families emerge from the relationship between rotation speeds. Whole-number ratios produce closed, symmetric forms.",
+      "Shape families emerge from the relationship between rotation speeds, producing inner symmetries and outer structure.",
     icon: "waves",
   },
   {
     title: "Layered Composition",
     description:
-      "Stack multiple shapes with different colors, blend modes, and opacities to create rich, complex artwork.",
+      "Stack multiple shapes with different colors, blend modes, opacities and blurs to create rich, complex artwork.",
     icon: "layers",
   },
   {
@@ -53,7 +53,7 @@ export const whyDifferent = {
     {
       title: "No equations required",
       description:
-        "You don't need to understand the math to create something beautiful. The controls are intuitive, the results are immediate.",
+        "You don't need to understand the math to create something beautiful. The controls are intuitive, the results are immediate. No gears or pens required.",
     },
   ],
 };

@@ -17,16 +17,18 @@ interface Arm {
 // Radii are expressed at a 500 px reference size and scaled to the actual canvas.
 const ARM_SETS: Arm[][] = [
   [
-    { freq: 3, radius: 100, phase: 0 },
-    { freq: -5, radius: 60, phase: 0 },
+    { freq: 2, radius: 100, phase: -Math.PI / 2 },
+    { freq: 5, radius: 56, phase: -Math.PI / 2 },
+    // { freq: -16, radius: 1.6, phase: -Math.PI / 2 },
   ],
   [
-    { freq: 2, radius: 90, phase: Math.PI / 3 },
-    { freq: -7, radius: 50, phase: Math.PI / 6 },
+    { freq: 1, radius: 100, phase: Math.PI / 2 },
+    { freq: -5, radius: 56, phase: Math.PI / 2 },
   ],
   [
-    { freq: 5, radius: 80, phase: Math.PI / 4 },
-    { freq: -3, radius: 70, phase: Math.PI / 2 },
+    { freq: 1, radius: 80, phase: -Math.PI / 2 },
+    { freq: -5, radius: 76, phase: -Math.PI / 2 },
+    { freq: 13, radius: 8, phase: -Math.PI / 2 },
   ],
 ];
 
@@ -63,7 +65,7 @@ export function HeroAnimation() {
       ARM_SETS.forEach((arms, setIdx) => {
         ctx.beginPath();
         ctx.strokeStyle = COLORS[setIdx];
-        ctx.lineWidth = 1.2;
+        ctx.lineWidth = 1.5;
 
         const steps = Math.floor(progress * 360);
         for (let i = 0; i <= steps; i++) {

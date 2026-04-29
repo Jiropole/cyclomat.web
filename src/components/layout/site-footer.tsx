@@ -54,7 +54,7 @@ export function SiteFooter() {
         </div>
         <div className="mt-12 border-t border-border/40 pt-6 text-center text-sm text-muted-foreground">
           <p>
-            &copy; <CopyrightYear /> Cyclomat. All rights reserved.
+            &copy; <CopyrightYear /> OctaveWare LLC. All rights reserved.
           </p>
         </div>
       </div>
