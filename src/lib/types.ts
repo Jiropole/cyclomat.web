@@ -41,6 +41,7 @@ export interface GalleryItem {
   layers: number;
   complexity: "simple" | "moderate" | "complex";
   colors: string[];
+  source: string;
 }
 
 export interface ExportFormat {

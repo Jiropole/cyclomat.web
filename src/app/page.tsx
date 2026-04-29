@@ -2,7 +2,7 @@ import { Hero } from "@/components/marketing/hero";
 import { SectionWrapper } from "@/components/marketing/section-wrapper";
 import { SectionHeading } from "@/components/marketing/section-heading";
 import { FeatureCard } from "@/components/marketing/feature-card";
-import { ArtworkPreview } from "@/components/marketing/artwork-preview";
+import { ArtworkSample } from "@/components/marketing/artwork-sample";
 import { CTASection } from "@/components/marketing/cta-section";
 import { FadeIn } from "@/components/ui/fade-in";
 import { heroContent, introContent, features, whyDifferent } from "@/content/home";
@@ -76,11 +76,10 @@ export default function HomePage() {
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {showcaseItems.map((item, i) => (
             <FadeIn key={item.id} index={i}>
-              <ArtworkPreview
-                colors={item.colors}
+              <ArtworkSample
+                source={item.source}
                 title={item.title}
-                seed={item.id.length * 7 + item.arms * 13}
-                className="aspect-square"
+                className="aspect-3/2"
               />
             </FadeIn>
           ))}

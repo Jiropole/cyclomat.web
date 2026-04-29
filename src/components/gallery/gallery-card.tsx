@@ -2,7 +2,7 @@
 
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
-import { ArtworkPreview } from "@/components/marketing/artwork-preview";
+import { ArtworkSample } from "@/components/marketing/artwork-sample";
 import { GalleryItem } from "@/lib/types";
 
 interface GalleryCardProps {
@@ -31,14 +31,17 @@ export function GalleryCard({ item, index = 0, className }: GalleryCardProps) {
       className={cn("group", className)}
     >
       <div className="overflow-hidden rounded-2xl border border-border/30 bg-black/20 transition-colors group-hover:border-primary/20">
-        <div className="aspect-square">
-          <ArtworkPreview
-            colors={item.colors}
-            title={item.title}
-            seed={item.id.length * 7 + item.arms * 13}
-            size="lg"
-          />
-        </div>
+        {/* <ArtworkPreview
+          colors={item.colors}
+          title={item.title}
+          seed={item.id.length * 7 + item.arms * 13}
+          size="lg"
+        /> */}
+        <ArtworkSample
+          source={item.source}
+          title={item.title}
+          className="aspect-3/2"
+        />
         <div className="p-5">
           <h3 className="mb-1 text-base font-semibold">{item.title}</h3>
           <p className="mb-3 text-sm text-muted-foreground leading-relaxed">

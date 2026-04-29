@@ -53,7 +53,7 @@ export const whyDifferent = {
     {
       title: "No equations required",
       description:
-        "You don't need to understand the math to create something beautiful. The controls are intuitive, the results are immediate. No gears or pens required.",
+        "You don't need to understand the math to create something beautiful. The controls are intuitive, the results are immediate.",
     },
   ],
 };
