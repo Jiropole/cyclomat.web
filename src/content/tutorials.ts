@@ -25,14 +25,20 @@ export const tutorials: Tutorial[] = [
         step: 2,
         title: "Set arm frequencies",
         description:
-          "Determine frequency ratios by setting arms to whole numbers like 3 or -5. Negative values reverse the direction of spin.",
-        tip: "Try different ratios: 1:4, 2:3, 3:5, 4:7. Each creates a distinct shape family.",
+          "The ratio between arm frequencies determines their shape family, as well as their direction of spin.",
+        tip: "Try different combinations of numbers and observe how each ratio yields a characteristic visual symmetry.",
       },
       {
         step: 3,
         title: "Adjust the radius slowly",
         description:
           "Change the radius of the second arm. Watch how the shape stretches and contracts. Small changes create subtle variations within the same family.",
+      },
+      {
+        step: 4,
+        title: "Tune the line style",
+        description:
+          "Use line width, blur, color and opacity to bring character and presence to the shape.",
       },
     ],
   },
@@ -63,6 +69,13 @@ export const tutorials: Tutorial[] = [
           "Shift the phase of each arm. Phase controls the starting angle, and even small changes can dramatically transform the shape's structure.",
         tip: "Phase is one of the most powerful parameters. Don't skip it.",
       },
+      {
+        step: 4,
+        title: "Change the wheel shape",
+        description:
+          "Normally the pen is controlled by circular motion. Changing the curvature or number of sides influences the art in new ways.",
+        tip: "Try selecting a number of sides that is a multiple of the shape symmetry.",
+      },
     ],
   },
   {
@@ -76,13 +89,14 @@ export const tutorials: Tutorial[] = [
         step: 1,
         title: "Duplicate your layer",
         description:
-          "Take your current shape and duplicate the layer. Now you have two identical shapes stacked on top of each other.",
+          "Take your current shape and duplicate the layer. Now you have two identical shapes stacked on top of each other, so make some interesting changes to the copy.",
+        tip: "Try changing the line width or color, or alter the shape geometry. Or try a new frequency ratio that complements the original layer.",
       },
       {
         step: 2,
         title: "Change the palette",
         description:
-          "Assign different colors to each layer. Choose colors that complement each other — warm and cool combinations work especially well.",
+          "Assign different colors to each layer. Choose colors that complement each other — warm and cool combinations work especially well. Or use the palette generation feature.",
         tip: "Try a vibrant color on top of a muted one for visual depth.",
       },
       {
@@ -90,18 +104,20 @@ export const tutorials: Tutorial[] = [
         title: "Apply blending modes",
         description:
           "Change the blend mode of the top layer. Screen, multiply, and overlay each create different interactions between the layers.",
+        tip: "For light artwork, Multiply and Darken are useful to model ink pens. For dark artwork, Screen or Lighten have a similar effect.",
       },
       {
         step: 4,
         title: "Adjust opacity",
         description:
-          "Lower the opacity of one or both layers. Semi-transparent layers create a sense of depth and luminosity that solid colors cannot achieve.",
+          "Lower the opacity of one or both layers to adjust the balance or \"mix\" between them. Semi-transparent layers create a sense of depth and luminosity.",
+        tip: "For an alternate range of effects, try increasing blur.",
       },
     ],
   },
   {
     id: "keyframes",
-    title: "Shape & Layout Keyframes",
+    title: "Keyframes",
     subtitle: "Create colorful shape variations with smoothly interpolating parameters.",
     difficulty: "advanced",
     outcome: "A mathematically precise shape series that transitions smoothly between defined states",
@@ -110,13 +126,13 @@ export const tutorials: Tutorial[] = [
         step: 1,
         title: "Define your first keyframe",
         description:
-          "Set up a shape you like, which becomes the first keyframe. This is your starting state — the shape the animation begins with.",
+          "On a new layer, set up a cycloid you like - it's settings <em>are</em> the first keyframe! Of course, what's the sound of one keyframe clapping?",
       },
       {
         step: 2,
         title: "Create a second keyframe",
         description:
-          "Duplicate the first keyframe, and change the frequency, radius, or phase values. Make the changes significant enough to see a clear transformation.",
+          "Duplicate the first keyframe, and change the geometry, line width, color, blur, etc. Make the changes significant enough to see a clear transformation.",
         tip: "Changing radius and phase between keyframes creates dramatic morphing effects.",
       },
       {
@@ -126,6 +142,13 @@ export const tutorials: Tutorial[] = [
           "Add additional keyframes to create fades or unusual sweeping effects. Each keyframe is a waypoint — the shape flows from one to the next.",
         tip: "Three to five keyframes is the sweet spot for mesmerizing shape effects.",
       },
+      {
+        step: 4,
+        title: "Repeat for Layout",
+        description:
+          "All the above methods for keyframe design can also be used at the Layout level.",
+        tip: "Copy and repeat the primary shapes, with changes to each copy. Produce gridded, circular, spiral, or mixed layouts.",
+      },
     ],
   },
   {
@@ -133,33 +156,40 @@ export const tutorials: Tutorial[] = [
     title: "Motion & Animation",
     subtitle: "Bring your shapes to life with animated transitions",
     difficulty: "advanced",
-    outcome: "An evolving animation that remixes still artwork in surprising and mesmerizing ways",
+    outcome: "An animation that smoothly evolves the artwork parameters in surprising and mesmerizing ways",
     steps: [
       {
         step: 1,
-        title: "Select the Animated view",
+        title: "View with animation",
         description:
-          "Your artwork was already ready for animation, all you have to do is switch the viewing mode",
+          "Your still artwork was already prepared to animate, so open the Animate section and switch to the animation view.",
       },
       {
         step: 2,
         title: "Adjust primary animation controls",
         description:
-          "Change the duration of the loop or control the degree of order or chaos in the resulting animation.",
+          "Change the duration of the loop and the entropy of the resulting animation.",
         tip: "Use the cycle intensity to increase or decrease the overall speed of the animation.",
       },
       {
         step: 3,
         title: "Preview the animation",
         description:
-          "Play or scrub through the animation. Cyclomat can show you exactly what will be rendered at each point in the animation.",
+          "Play or scrub through the animation. Cyclomat shows exactly what will be rendered at any point.",
       },
       {
         step: 4,
         title: "Adjust advanced settings",
         description:
-          "Control how much random animation is applied to various parameter groups, or configure advanced settings.",
-        tip: "Try turning off all but one of the intensity controls at a time, in order to see how each one affects the whole.",
+          "Control the degree of animation applied to various parameter groups, enable looping and more.",
+        tip: "Try turning off all but one of the intensity controls at a time, and play the video in order to see its effect.",
+      },
+      {
+        step: 5,
+        title: "Export",
+        description:
+          "In order to see complex animations play smoothly, its best to export to a video file.",
+        tip: "Try exporting a small sample first to verify settings.",
       },
     ],
   },

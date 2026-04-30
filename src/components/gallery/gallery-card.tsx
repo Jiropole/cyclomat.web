@@ -40,7 +40,7 @@ export function GalleryCard({ item, index = 0, className }: GalleryCardProps) {
         <ArtworkSample
           source={item.source}
           title={item.title}
-          className="aspect-3/2"
+          className="aspect-square"
         />
         <div className="p-5">
           <h3 className="mb-1 text-base font-semibold">{item.title}</h3>

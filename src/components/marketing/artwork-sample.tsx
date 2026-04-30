@@ -32,7 +32,7 @@ export function ArtworkSample({
         src={source}
         alt={alt ?? title ?? "Cyclomat artwork sample"}
         fill
-        objectFit="fill"
+        sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw"
       />
       {title && (
         <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4 pt-8 opacity-0 transition-opacity group-hover:opacity-100">

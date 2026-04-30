@@ -11,12 +11,12 @@ export const galleryItems: GalleryItem[] = [
   {
     id: "shape-harmony",
     title: "Shape Harmony",
-    description: "Three simple shapes sharing harmonic relationships and colors.",
+    description: "Three shapes together, sharing harmonic relationships and colors.",
     arms: 3,
     layers: 3,
     complexity: "simple",
     colors: ["#60a5fa", "#34d399"],
-    source: "/gallery/Cyclomat-Project-221-20260429-125830.jpeg",
+    source: "/gallery/Cyclomat-Project-223-20260430-154506.jpeg",
   },
   {
     id: "seusse-spiral",
@@ -31,7 +31,7 @@ export const galleryItems: GalleryItem[] = [
   {
     id: "jelly-heads",
     title: "Jelly Heads",
-    description: "Smooth color and geometric interpolation between four-lobed shapes.",
+    description: "Smooth color and geometric interpolation between four-petal shapes.",
     arms: 2,
     layers: 1,
     complexity: "moderate",
@@ -81,7 +81,7 @@ export const galleryItems: GalleryItem[] = [
   {
     id: "twin-orbit",
     title: "Twin Orbit",
-    description: "Two keyframed shapes positioned with layout, having contrasting colors and partial opacity.",
+    description: "Two keyframed shapes positioned opposing, with contrasting colors and partial opacity.",
     arms: 3,
     layers: 2,
     complexity: "moderate",
@@ -121,7 +121,7 @@ export const galleryItems: GalleryItem[] = [
   {
     id: "mayan-sunrise",
     title: "Mayan Sunrise",
-    description: "Interference between shapes and layers gives rise to new tonal structures.",
+    description: "Construction and interference between shapes, and betwen layers, gives rise to new tonal structures.",
     arms: 3,
     layers: 3,
     complexity: "complex",
