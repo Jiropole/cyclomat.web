@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
+import createMDX from '@next/mdx'
 
 const nextConfig: NextConfig = {
   poweredByHeader: false,
+  // Configure `pageExtensions` to include markdown and MDX files
+  pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],  
   async headers() {
     return [
       {
@@ -23,4 +26,8 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+const withMDX = createMDX({
+  extension: /\.(md|mdx)$/,
+})
+
+export default withMDX(nextConfig);

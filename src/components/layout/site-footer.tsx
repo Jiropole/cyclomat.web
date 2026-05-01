@@ -18,13 +18,21 @@ const footerLinks = [
       { label: "About", href: "/about" },
     ],
   },
+  {
+    title: "Docs",
+    links: [
+      // { label: "Manual", href: "/manual" },
+      { label: "Privacy", href: "/privacy" },
+      { label: "Terms", href: "/terms" },
+    ],
+  },
 ];
 
 export function SiteFooter() {
   return (
     <footer className="border-t border-border/40 px-6 py-12">
       <div className="mx-auto max-w-6xl">
-        <div className="grid gap-8 md:grid-cols-3">
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div>
             <Link href="/" className="text-lg font-semibold tracking-tight">
               Cyclomat
@@ -52,7 +60,25 @@ export function SiteFooter() {
             </div>
           ))}
         </div>
+        {/* <div className="mt-12 border-t border-border/40 pt-6 text-center text-sm text-muted-foreground">
+          <p>
+            <Link
+              href={"/privacy"}
+              className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+            >
+              We take privacy seriously.
+            </Link>            
+          </p>
+        </div> */}
         <div className="mt-12 border-t border-border/40 pt-6 text-center text-sm text-muted-foreground">
+          {/* <p>
+            <Link
+              href={"/privacy"}
+              className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+            >
+              We take privacy seriously.
+            </Link>            
+          </p> */}
           <p>
             &copy; <CopyrightYear /> OctaveWare LLC. All rights reserved.
           </p>
