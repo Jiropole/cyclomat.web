@@ -79,7 +79,6 @@ export default function HomePage() {
               <ArtworkSample
                 source={item.source}
                 title={item.title}
-                className="aspect-square"
               />
             </FadeIn>
           ))}
@@ -98,7 +97,7 @@ export default function HomePage() {
       <CTASection
         heading="Ready to create something beautiful?"
         description="Start with a simple shape and discover what harmonic motion can do."
-        primaryCta={{ label: "Create your first shape", href: "/learn" }}
+        primaryCta={{ label: "Create your first shape", href: "/download" }}
         secondaryCta={{ label: "See the gallery", href: "/gallery" }}
       />
     </>

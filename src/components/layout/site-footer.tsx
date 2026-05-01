@@ -8,6 +8,7 @@ const footerLinks = [
       { label: "How It Works", href: "/how-it-works" },
       { label: "Gallery", href: "/gallery" },
       { label: "Export & Share", href: "/export" },
+      { label: "Start Creating", href: "/download" },
     ],
   },
   {
