@@ -79,6 +79,7 @@ export default function HomePage() {
               <ArtworkSample
                 source={item.source}
                 title={item.title}
+                className="aspect-square"
               />
             </FadeIn>
           ))}
