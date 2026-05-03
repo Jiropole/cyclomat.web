@@ -9,6 +9,8 @@ import { heroContent, introContent, features, whyDifferent } from "@/content/hom
 import { galleryItems } from "@/content/gallery";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
+import Image from 'next/image'
+import userInterfaceImage from '../../public/cyclomat-ui-perspective.png'
 
 export default function HomePage() {
   const showcaseItems = galleryItems.slice(0, 4);
@@ -27,6 +29,21 @@ export default function HomePage() {
           heading={introContent.heading}
           subtext={introContent.description}
         />
+        <div className="relative">
+          <Image 
+            src={userInterfaceImage}
+            alt="Picture of the user interface"
+          />
+        </div>
+        {/* <div className="mt-4 flex justify-center items-center">
+          <Link
+            href="/download"
+            className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition-all hover:bg-primary/90 hover:gap-3"
+          >
+            Available for iPad or MacOS.
+            <ArrowRight className="size-4" />
+          </Link>
+        </div> */}
       </SectionWrapper>
 
       <SectionWrapper>
