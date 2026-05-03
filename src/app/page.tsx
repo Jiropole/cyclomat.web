@@ -98,7 +98,7 @@ export default function HomePage() {
       <CTASection
         heading="Ready to create something beautiful?"
         description="Start with a simple shape and discover what harmonic motion can do."
-        primaryCta={{ label: "Create your first shape", href: "/download" }}
+        primaryCta={{ label: "Get the app", href: "/download" }}
         secondaryCta={{ label: "See the gallery", href: "/gallery" }}
       />
     </>
