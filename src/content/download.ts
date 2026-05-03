@@ -1,18 +1,19 @@
 export const pageIntro = {
   heading: "Start Creating",
   subtext:
-    "Get started by downloading Cyclomat from the App Store.",
-};
+    "Get started by installing Cyclomat, available for iPad or MacOS.",
+}
 
+export const installInvitation = {
+  heading: "Easy Install",
+  body: "No registration or purchase required. Get straight to play.",
+  cta: { label: "View on the App Store", href: "https://apps.apple.com/app/id6755161368" },
+}
 
 export const invitation = {
-  heading: "Download Now",
-  body: "Cyclomat is available for iPad or MacOS.",
-  cta: { label: "Visit the App Store", href: "https://apps.apple.com/app/id6755161368" },
-};
+  heading: "Ready to learn more?",
+  body: "Follow the guided tutorials to create your first shape in minutes.",
+  cta: { label: "Start learning", href: "/learn" },
+  secondaryCta: { label: "Explore the gallery", href: "/gallery" }
+}
 
-export const keyPrinciple = {
-  text: "Create complex, beautiful geometric artwork through harmonic motion. No equations needed.",
-  subtext:
-    "Take the first step on a voyage of visual discovery.",
-};

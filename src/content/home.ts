@@ -5,7 +5,7 @@ export const heroContent = {
   subtext:
     "Cyclomat transforms simple rotations into intricate geometric artwork. No equations needed — just curiosity and a sense of play.",
   cta: {
-    primary: { label: "Create your first shape", href: "/learn" },
+    primary: { label: "Get the app", href: "/download" },
     secondary: { label: "Learn how it works", href: "/how-it-works" },
   },
 };
@@ -13,7 +13,7 @@ export const heroContent = {
 export const introContent = {
   heading: "What is Cyclomat?",
   description:
-    "Cyclomat is a creative tool that generates complex, beautiful geometric artwork through harmonic motion. Rotating arms trace paths that become spirograph-like patterns — from elegant curves to densely layered compositions.",
+    "Cyclomat is a creative tool that generates complex, beautiful geometric artwork through harmonic motion. Rotating arms trace paths that become spirograph-like patterns — from elegant curves to densely layered compositions. Available for iPad or MacOS.",
 };
 
 export const features: FeatureCardData[] = [
