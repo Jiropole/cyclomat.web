@@ -20,7 +20,7 @@ export default function GalleryPage() {
       <CTASection
         heading="Inspired to create your own?"
         description="Follow the guided tutorials and make your first shape in minutes."
-        primaryCta={{ label: "Start creating", href: "/download" }}
+        primaryCta={{ label: "Get the app", href: "/download" }}
         secondaryCta={{ label: "How it works", href: "/how-it-works" }}
       />
     </>

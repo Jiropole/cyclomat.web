@@ -28,7 +28,7 @@ export default function AboutPage() {
         heading={invitation.heading}
         description={invitation.body}
         primaryCta={invitation.cta}
-        secondaryCta={{ label: "Explore the gallery", href: "/gallery" }}
+        secondaryCta={invitation.secondaryCta}
       />
     </>
   );

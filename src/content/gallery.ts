@@ -4,7 +4,7 @@ import { GalleryItem } from "@/lib/types";
 export const galleryIntro = {
   heading: "Gallery",
   subtext:
-    "A collection of artwork created with Cyclomat. Each piece is generated purely through harmonic motion — no hand-drawing, no randomness. Just frequency, radius, and time.",
+    "A collection of artwork created with Cyclomat. Each piece is generated purely through harmonic motion and expressive styles.",
 };
 
 export const galleryItems: GalleryItem[] = [
