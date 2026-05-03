@@ -8,6 +8,7 @@ import { exportIntro, exportFormats, useCases } from "@/content/export";
 import {
   Image,
   FileText,
+  FileVideoCamera,
   SquareDashedBottom,
   Share2,
 } from "lucide-react";
@@ -15,6 +16,7 @@ import {
 const iconMap: Record<string, ElementType> = {
   image: Image,
   "file-text": FileText,
+  "file-movie": FileVideoCamera,
   "square-dashed-bottom": SquareDashedBottom,
   "share-2": Share2,
 };

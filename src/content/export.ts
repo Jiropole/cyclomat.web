@@ -35,7 +35,7 @@ export const exportFormats: ExportFormat[] = [
       "Unlimited duration and perfect looping",
       "Intriguing basis for meditation, video projects, or live projection",
     ],
-    icon: "file-text",
+    icon: "file-movie",
   },
   {
     title: "Vector PDF",
