@@ -25,14 +25,14 @@ export const tutorials: Tutorial[] = [
         step: 2,
         title: "Set arm frequencies",
         description:
-          "The ratio between arm frequencies determines their shape family, as well as their direction of spin.",
-        tip: "Try different combinations of numbers and observe how each ratio yields a characteristic visual symmetry.",
+          "The ratio between arm frequencies, along with their direction of spin, determines the shape family.",
+        tip: "A general convention is to order from lower to higher frequencies, but the order does not actually matter. Try different combinations of numbers and observe how each ratio yields a characteristic visual symmetry.",
       },
       {
         step: 3,
         title: "Adjust the radius slowly",
         description:
-          "Change the radius of the second arm. Watch how the shape stretches and contracts. Small changes create subtle variations within the same family.",
+          "Change the radius of the second arm. Watch how the aspects of the shape stretch and contract. Small changes create subtle variations within the same family.",
       },
       {
         step: 4,
@@ -59,21 +59,21 @@ export const tutorials: Tutorial[] = [
         step: 2,
         title: "Change spin direction",
         description:
-          "Set one arm to spin in the opposite direction. Counter-rotating arms create patterns that fold back on themselves in beautiful ways.",
-        tip: "Try making the middle arm spin in reverse — it creates loop structures.",
+          "Set one arm to spin in the opposite direction. Co-rotating arms creating outward arcs and inner detail. Counter-rotating arms create patterns that fold back on themselves in beautiful ways.",
+        tip: "You will observe symmetry change when flipping spin direction. If this is bothersome try Gear Size mode, under Settings.",
       },
       {
         step: 3,
         title: "Experiment with phase",
         description:
-          "Shift the phase of each arm. Phase controls the starting angle, and even small changes can dramatically transform the shape's structure.",
+          "Shift the phase of each arm. Phase controls the starting angle. It is the difference in phase between arms that creates novelty.",
         tip: "Phase is one of the most powerful parameters. Don't skip it.",
       },
       {
         step: 4,
         title: "Change the wheel shape",
         description:
-          "Normally the pen is controlled by circular motion. Changing the curvature or number of sides influences the art in new ways.",
+          "Normally the pen is controlled by circular motion. Change the wheel shape by reducing curvature and selecting polygonal sides to influence the art in new ways.",
         tip: "Try selecting a number of sides that is a multiple of the shape symmetry.",
       },
     ],
@@ -111,7 +111,14 @@ export const tutorials: Tutorial[] = [
         title: "Adjust opacity",
         description:
           "Lower the opacity of one or both layers to adjust the balance or \"mix\" between them. Semi-transparent layers create a sense of depth and luminosity.",
-        tip: "For an alternate range of effects, try increasing blur.",
+        tip: "Opacity can be applied at the Cycloid or Layout levels.",
+      },
+      {
+        step: 5,
+        title: "Adjust blur",
+        description:
+          "Try increasing blur to produce inner or other blur, control depth-of-detail, or achieve other effects with blending.",
+        tip: "Blur can be applied at the Cycloid or Layout levels. Blur is a heavy operation, so go easy!",
       },
     ],
   },
@@ -147,7 +154,7 @@ export const tutorials: Tutorial[] = [
         title: "Repeat for Layout",
         description:
           "All the above methods for keyframe design can also be used at the Layout level.",
-        tip: "Copy and repeat the primary shapes, with changes to each copy. Produce gridded, circular, spiral, or mixed layouts.",
+        tip: "Often used to copy, scale and repeat the primary shapes. Produce gridded, circular, spiral, or mixed layouts.",
       },
     ],
   },
@@ -188,7 +195,7 @@ export const tutorials: Tutorial[] = [
         step: 5,
         title: "Export",
         description:
-          "In order to see complex animations play smoothly, its best to export to a video file.",
+          "In order to see complex animations play smoothly, export to a video file.",
         tip: "Try exporting a small sample first to verify settings.",
       },
     ],
