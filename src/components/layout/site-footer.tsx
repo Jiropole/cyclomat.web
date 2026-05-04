@@ -16,6 +16,7 @@ const footerLinks = [
     links: [
       { label: "Getting Started", href: "/learn" },
       { label: "Layers & Color", href: "/learn#layers-and-color" },
+      { label: "Keyframes & Animation", href: "/learn#keyframes" },
       { label: "About", href: "/about" },
     ],
   },
@@ -61,25 +62,8 @@ export function SiteFooter() {
             </div>
           ))}
         </div>
-        {/* <div className="mt-12 border-t border-border/40 pt-6 text-center text-sm text-muted-foreground">
-          <p>
-            <Link
-              href={"/privacy"}
-              className="text-sm text-muted-foreground transition-colors hover:text-foreground"
-            >
-              We take privacy seriously.
-            </Link>            
-          </p>
-        </div> */}
+
         <div className="mt-12 border-t border-border/40 pt-6 text-center text-sm text-muted-foreground">
-          {/* <p>
-            <Link
-              href={"/privacy"}
-              className="text-sm text-muted-foreground transition-colors hover:text-foreground"
-            >
-              We take privacy seriously.
-            </Link>            
-          </p> */}
           <p>
             &copy; <CopyrightYear /> Octaveware LLC. All rights reserved.
           </p>

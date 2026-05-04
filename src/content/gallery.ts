@@ -64,7 +64,7 @@ export const galleryItems: GalleryItem[] = [
     description: "Multiple layers with parameter offsets create a shimmering interference pattern.",
     arms: 3,
     layers: 4,
-    complexity: "complex",
+    complexity: "moderate",
     colors: ["#818cf8", "#e879f9", "#fb7185"],
     source: "/gallery/Cyclomat-Project-17-20260429-115102.jpeg",
   },
@@ -131,7 +131,7 @@ export const galleryItems: GalleryItem[] = [
   {
     id: "plumage",
     title: "Plumage",
-    description: "Velvet neo-arcade colors and echoing shape to attract any mate.",
+    description: "Velvet neo-arcade colors and echoing feahers to attract any mate.",
     arms: 3,
     layers: 3,
     complexity: "moderate",
@@ -141,7 +141,7 @@ export const galleryItems: GalleryItem[] = [
   {
     id: "drafting-table",
     title: "Drafting Table",
-    description: "Through emulation, an homage to the vast array of beautiful drawing machines created through the ages.",
+    description: "An homage to the vast array of hand-crafted drawing machines created through the ages.",
     arms: 3,
     layers: 3,
     complexity: "complex",
