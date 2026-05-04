@@ -74,7 +74,7 @@ export const useCases = [
   },
   {
     title: "Motion Graphics",
-    description: "Generate calm or climactic videos for use in creative motion graphics projects.",
+    description: "Export meditative, stimulating, or climactic videos to accompany your own motion or audio graphics workflow.",
   },
   {
     title: "Creative Collaboration",

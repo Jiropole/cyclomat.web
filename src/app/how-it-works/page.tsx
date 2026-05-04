@@ -29,10 +29,16 @@ export default function HowItWorksPage() {
           duration={0.6}
           className="mx-auto max-w-3xl rounded-2xl border border-primary/20 bg-primary/5 p-10 text-center"
         >
-          <blockquote className="text-2xl font-semibold tracking-tight md:text-3xl">
+          {/* <blockquote className="text-2xl font-semibold tracking-tight md:text-3xl">
             &ldquo;{keyPrinciple.text}&rdquo;
-          </blockquote>
+          </blockquote> */}
+          <div>
+            {keyPrinciple.quotes.map((quote, i) => (
+              // <li key={i}>{quote}</li>
+              <p key={i} className="text-l font-semibold tracking-tight md:text-3xl leading-10">{quote}</p>
+            ))}
           <p className="mt-4 text-muted-foreground">{keyPrinciple.subtext}</p>
+          </div>
         </FadeIn>
       </SectionWrapper>
 

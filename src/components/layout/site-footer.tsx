@@ -81,7 +81,7 @@ export function SiteFooter() {
             </Link>            
           </p> */}
           <p>
-            &copy; <CopyrightYear /> OctaveWare LLC. All rights reserved.
+            &copy; <CopyrightYear /> Octaveware LLC. All rights reserved.
           </p>
         </div>
       </div>

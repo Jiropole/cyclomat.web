@@ -59,6 +59,12 @@ export const concepts: ConceptBlock[] = [
 
 export const keyPrinciple = {
   text: "Frequency defines the structure. Radius defines the expression.",
+  quotes: [
+    "Frequency defines the structure.", 
+    "Radius defines the expression.", 
+    // "Keyframe defines a frequency and radius that can be tweened to other frequencies and radii.",
+    // "Animation drives change in parameter space-time.",
+  ],
   subtext:
-    "Once you internalize this, the entire system becomes intuitive.",
+    "Once observed through practice with the app, the entire system becomes intuitive.",
 };

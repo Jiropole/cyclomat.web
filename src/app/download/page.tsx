@@ -12,7 +12,7 @@ export default function Page() {
 
       <SectionWrapper>
         <div className="grid gap-6 md:grid-cols-2 flex items-center">
-          <div className="group relative aspect-810/559">
+          <div className="group relative aspect-810/559 pl-6">
             <Image 
               src={userInterfaceImage}
               alt="Picture of the user interface"

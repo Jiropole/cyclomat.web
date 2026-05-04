@@ -100,7 +100,7 @@ export default function LearnPage() {
         heading="Ready to explore further?"
         description="The gallery showcases what's possible when you combine these techniques."
         primaryCta={{ label: "Browse the gallery", href: "/gallery" }}
-        secondaryCta={{ label: "How it works", href: "/how-it-works" }}
+        secondaryCta={{ label: "Export your artwork", href: "/export" }}
       />
     </>
   );
