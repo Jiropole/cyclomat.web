@@ -143,7 +143,7 @@ export const galleryItems: GalleryItem[] = [
     title: "Drafting Table",
     description: "An homage to the vast array of hand-crafted drawing machines created through the ages.",
     arms: 3,
-    layers: 3,
+    layers: 4,
     complexity: "complex",
     colors: ["#60a5fa", "#34d399"],
     source: "/gallery/Cyclomat-Project-48-20260503-215850.jpeg",

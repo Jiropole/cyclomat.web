@@ -7,7 +7,7 @@ export const pageIntro = {
 export const installInvitation = {
   heading: "Easy Install",
   body: "No registration or purchase required. Get straight to play.",
-  cta: { label: "View on the App Store", href: "https://apps.apple.com/app/id6755161368" },
+  cta: { label: "View on the App Store", href: "https://apps.apple.com/app/cyclomat/id6755161368" },
 }
 
 export const invitation = {
