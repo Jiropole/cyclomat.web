@@ -171,7 +171,7 @@ export const galleryItems: GalleryItem[] = [
   {
     id: "hue-manity",
     title: "Huemanity",
-    description: "All the hues known to computer science, layered with pride above the bright glow our human joy to create.",
+    description: "Most of the hues known to computer science, layered with pride above the bright glow our human joy to create.",
     arms: 3,
     layers: 1,
     complexity: "moderate",
