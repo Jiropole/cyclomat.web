@@ -121,7 +121,7 @@ export const galleryItems: GalleryItem[] = [
   {
     id: "mayan-sunrise",
     title: "Mayan Sunrise",
-    description: "Construction and interference between shapes, and betwen layers, gives rise to new tonal structures.",
+    description: "Correlation and interference between shapes and layers give rise to new tonal structures.",
     arms: 3,
     layers: 3,
     complexity: "complex",
