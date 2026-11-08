@@ -9,8 +9,7 @@ import { heroContent, introContent, features, whyDifferent } from "@/content/hom
 import { galleryItems } from "@/content/gallery";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
-import Image from 'next/image'
-import userInterfaceImage from '../../public/cyclomat-ui-perspective.png'
+import { LoopVideo } from "@/components/marketing/loop-video";
 import { appStoreUrl } from "@/content/links";
 
 export default function HomePage() {
@@ -31,10 +30,15 @@ export default function HomePage() {
           subtext={introContent.description}
         />
         <div className="relative">
-          <Image 
-            src={userInterfaceImage}
-            alt="Picture of the user interface"
+          <LoopVideo
+            src="/hero/editing-loop.mp4"
+            poster="/hero/editing-poster.jpg"
+            label="Screen recording of the Cyclomat editor: dragging a slider turns a plain circle into an intricate pattern"
+            className="aspect-[1280/930] rounded-2xl"
           />
+          <p className="mt-3 text-center text-sm text-muted-foreground">
+            Drag a slider in the Cyclomat editor and the whole shape changes.
+          </p>
         </div>
         {/* <div className="mt-4 flex justify-center items-center">
           <Link

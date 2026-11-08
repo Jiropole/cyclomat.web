@@ -1,12 +1,20 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import { cn } from "@/lib/utils";
+
+interface LoopVideoProps {
+  src: string;
+  poster: string;
+  label: string;
+  className?: string;
+}
 
 /**
- * The hero's looping artwork: a muted, seamless 12-second clip exported from the app (SDR, no audio).
+ * A muted, autoplaying, looping clip (SDR, no audio) for the hero and for demos.
  * People who ask their system to reduce motion get the still poster frame instead of the moving clip.
  */
-export function HeroLoop() {
+export function LoopVideo({ src, poster, label, className }: LoopVideoProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
@@ -29,15 +37,15 @@ export function HeroLoop() {
   return (
     <video
       ref={videoRef}
-      className="aspect-square w-full max-w-[560px] rounded-3xl bg-black"
-      src="/hero/hero-loop.mp4"
-      poster="/hero/hero-poster.jpg"
+      className={cn("w-full rounded-3xl bg-black", className)}
+      src={src}
+      poster={poster}
       autoPlay
       loop
       muted
       playsInline
       preload="auto"
-      aria-label="Looping animation of glowing geometric shapes made in Cyclomat"
+      aria-label={label}
     />
   );
 }
