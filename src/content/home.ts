@@ -2,38 +2,38 @@ import { FeatureCardData } from "@/lib/types";
 import { appStoreUrl } from "@/content/links";
 
 export const heroContent = {
-  headline: "Draw with harmony, motion, and time",
+  headline: "Geometric art that moves",
   subtext:
-    "Cyclomat transforms simple rotations into intricate geometric artwork. No equations needed — just curiosity and a sense of play.",
+    "Spin a few simple arms and watch intricate patterns bloom. Layer them, color them, set them in motion, then export seamless loops, images or print-ready vectors.",
   cta: {
     primary: { label: "Get it on the App Store", href: appStoreUrl },
-    secondary: { label: "Learn how it works", href: "/how-it-works" },
+    secondary: { label: "See what's possible", href: "/gallery" },
   },
 };
 
 export const introContent = {
-  heading: "What is Cyclomat?",
+  heading: "Drawing with rotation",
   description:
-    "Cyclomat is a creative tool that generates complex, beautiful geometric artwork through harmonic motion. Rotating arms trace paths that become spirograph-like patterns — from elegant curves to densely layered compositions.",
+    "Cyclomat is a studio for making geometric art from motion. Every shape comes from arms that turn at different speeds and reach different distances. Change a number and the whole pattern changes, so you explore by feel, not by formula.",
 };
 
 export const features: FeatureCardData[] = [
   {
-    title: "Harmonic Frequencies",
+    title: "Start with rotation",
     description:
-      "Shape families emerge from the relationship between rotation speeds, producing inner symmetries and outer structure.",
+      "Choose how fast each arm turns and how far it reaches. Flowers, weaves, lattices and spirals appear from simple relationships.",
     icon: "waves",
   },
   {
-    title: "Layered Composition",
+    title: "Build in layers",
     description:
-      "Stack multiple shapes with different colors, blend modes, opacities and blurs to create rich, complex artwork.",
+      "Stack shapes with their own colors, opacity, blur and blend modes. Add bloom and trails for depth and texture.",
     icon: "layers",
   },
   {
-    title: "Mathematical Beauty",
+    title: "Set it in motion",
     description:
-      "Explore the intersection of math and art. Every parameter change reveals a new visual possibility.",
+      "Animate any piece and export it as a seamless loop of video that you can post anywhere.",
     icon: "sparkles",
   },
 ];
@@ -42,19 +42,19 @@ export const whyDifferent = {
   heading: "Why Cyclomat",
   points: [
     {
-      title: "Frequency shapes the form",
+      title: "Math underneath, play on top",
       description:
-        "Unlike random generators, Cyclomat's output is grounded in harmonic relationships. The math creates the beauty.",
+        "The patterns come from real harmonic relationships, so they feel ordered and alive. You never have to type an equation to enjoy them.",
     },
     {
-      title: "Layers create depth",
+      title: "Made to be shared",
       description:
-        "Combine multiple shapes, each with their own character, into compositions that feel both structured and organic.",
+        "Export high resolution images, looping video, or resolution-independent PDF for print.",
     },
     {
-      title: "No equations required",
+      title: "Nothing in the way",
       description:
-        "You don't need to understand the math to create something beautiful. The controls are intuitive, the results are immediate.",
+        "No ads and no account. Just open it and make something.",
     },
   ],
 };

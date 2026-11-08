@@ -48,7 +48,7 @@ export default function HomePage() {
       </SectionWrapper>
 
       <SectionWrapper>
-        <SectionHeading heading="What makes it unique" />
+        <SectionHeading heading="What you can do" />
         <div className="grid gap-6 md:grid-cols-3">
           {features.map((feature, i) => (
             <FeatureCard
@@ -82,7 +82,7 @@ export default function HomePage() {
 
       <SectionWrapper>
         <div className="flex items-end justify-between mb-12">
-          <SectionHeading heading="Featured artwork" className="mb-0 text-left" align="left" />
+          <SectionHeading heading="Made with Cyclomat" className="mb-0 text-left" align="left" />
           <Link
             href="/gallery"
             className="hidden items-center gap-1 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground md:flex"
@@ -114,8 +114,8 @@ export default function HomePage() {
       </SectionWrapper>
 
       <CTASection
-        heading="Ready to create something beautiful?"
-        description="Start with a simple shape and discover what harmonic motion can do."
+        heading="Make your first loop"
+        description="Start with a simple shape and watch it move."
         primaryCta={{ label: "Get the app", href: appStoreUrl }}
         secondaryCta={{ label: "See the gallery", href: "/gallery" }}
       />
