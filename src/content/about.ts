@@ -20,6 +20,10 @@ export const philosophy = [
     body: "Cyclomat isn't about precision or perfection. It's about exploration. Every parameter change reveals something unexpected. Every layer adds depth. The best results often come from happy accidents — moments where the math surprises even the person using it.",
   },
   {
+    heading: "Set in motion",
+    body: "The same few numbers that shape a pattern can also make it breathe. Cyclomat animates your artwork, loops it seamlessly, and exports it as video, so a pattern that began as a quiet drawing can become something to watch and share.",
+  },
+  {
     heading: "Timeless geometry",
     body: "The patterns Cyclomat creates aren't new. They echo forms found in nature, architecture, and centuries of mathematical art. Lissajous curves, rose curves, epitrochoids — these shapes have fascinated thinkers for hundreds of years. Cyclomat simply makes them accessible to everyone.",
   },

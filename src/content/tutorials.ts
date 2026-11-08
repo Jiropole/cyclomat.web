@@ -167,15 +167,15 @@ export const tutorials: Tutorial[] = [
     steps: [
       {
         step: 1,
-        title: "View with animation",
+        title: "Switch to Anim",
         description:
-          "Your still artwork was already prepared to animate, so open the Animate section and switch to the animation view.",
+          "Your still artwork was already prepared to animate. In the Project section, switch the Anim | Still selector to Anim.",
       },
       {
         step: 2,
         title: "Adjust primary animation controls",
         description:
-          "Change the duration of the loop and the entropy of the resulting animation.",
+          "Set the length of the loop, then open Details to adjust the character of the animation. Tap New Random Seed any time for a completely different one.",
         tip: "Use the cycle intensity to increase or decrease the overall speed of the animation.",
       },
       {
