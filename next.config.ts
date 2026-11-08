@@ -1,10 +1,15 @@
 import type { NextConfig } from "next";
 import createMDX from '@next/mdx'
+import { instagramAppStoreUrl } from "./src/content/links";
 
 const nextConfig: NextConfig = {
   poweredByHeader: false,
   // Configure `pageExtensions` to include markdown and MDX files
   pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],  
+  // A short address for the Instagram bio. Temporary (not permanent) so the destination can change later.
+  async redirects() {
+    return [{ source: "/ig", destination: instagramAppStoreUrl, permanent: false }];
+  },
   async headers() {
     return [
       {
