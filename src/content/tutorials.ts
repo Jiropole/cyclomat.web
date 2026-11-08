@@ -133,7 +133,7 @@ export const tutorials: Tutorial[] = [
         step: 1,
         title: "Define your first keyframe",
         description:
-          "On a new layer, set up a cycloid you like - it's settings <em>are</em> the first keyframe! Of course, what's the sound of one keyframe clapping?",
+          "On a new layer, set up a cycloid you like. Its settings are the first keyframe! Of course, what's the sound of one keyframe clapping?",
       },
       {
         step: 2,
