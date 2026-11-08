@@ -17,7 +17,7 @@ export const concepts: ConceptBlock[] = [
     title: "Arms",
     subtitle: "Independent contributors to the shape",
     description:
-      "Each arm rotates at its own speed and distance. Think of them as invisible compass arms, each adding its own influence to the final path. Start with two arms and explore from there.",
+      "Each arm rotates at its own speed and distance. Think of them as invisible compass arms, each adding its own influence to the final path. A shape can have up to five arms. Start with two and explore from there.",
   },
   {
     title: "Frequency",
@@ -53,7 +53,7 @@ export const concepts: ConceptBlock[] = [
     title: "Animation",
     subtitle: "Shapes that evolve over time",
     description:
-      "Switch to animation view to configure random changes to the artwork over time. Watch static geometry come alive as forms morph and transform.",
+      "Set a piece in motion and Cyclomat changes it over time. Choose a loop length and the animation repeats seamlessly, ready to export as video.",
   },
 ];
 

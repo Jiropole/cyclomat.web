@@ -46,8 +46,8 @@ export default function HowItWorksPage() {
       <CTASection
         heading="Ready to try it yourself?"
         description="Follow the guided tutorials to create your first shape in minutes."
-        primaryCta={{ label: "Start learning", href: "/learn" }}
-        secondaryCta={{ label: "Get the app", href: appStoreUrl }}
+        primaryCta={{ label: "Get the app", href: appStoreUrl }}
+        secondaryCta={{ label: "Start learning", href: "/learn" }}
       />
     </>
   );
