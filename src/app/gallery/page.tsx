@@ -3,6 +3,7 @@ import { SectionWrapper } from "@/components/marketing/section-wrapper";
 import { GalleryCard } from "@/components/gallery/gallery-card";
 import { CTASection } from "@/components/marketing/cta-section";
 import { galleryIntro, galleryItems } from "@/content/gallery";
+import { appStoreUrl } from "@/content/links";
 
 export default function GalleryPage() {
   return (
@@ -20,7 +21,7 @@ export default function GalleryPage() {
       <CTASection
         heading="Inspired to create your own?"
         description="Get the app, follow the guided tutorials and make your first shape in minutes."
-        primaryCta={{ label: "Get the app", href: "/download" }}
+        primaryCta={{ label: "Get the app", href: appStoreUrl }}
         secondaryCta={{ label: "Start learning", href: "/learn" }}
       />
     </>

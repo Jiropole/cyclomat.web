@@ -4,6 +4,7 @@ import { ConceptBlock } from "@/components/marketing/concept-block";
 import { CTASection } from "@/components/marketing/cta-section";
 import { FadeIn } from "@/components/ui/fade-in";
 import { pageIntro, concepts, keyPrinciple } from "@/content/how-it-works";
+import { appStoreUrl } from "@/content/links";
 
 export default function HowItWorksPage() {
   return (
@@ -46,7 +47,7 @@ export default function HowItWorksPage() {
         heading="Ready to try it yourself?"
         description="Follow the guided tutorials to create your first shape in minutes."
         primaryCta={{ label: "Start learning", href: "/learn" }}
-        secondaryCta={{ label: "Get the app", href: "/download" }}
+        secondaryCta={{ label: "Get the app", href: appStoreUrl }}
       />
     </>
   );

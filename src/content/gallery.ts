@@ -20,7 +20,7 @@ export const galleryItems: GalleryItem[] = [
   },
   {
     id: "seusse-spiral",
-    title: "Seusse Spiral",
+    title: "Seuss Spiral",
     description: "Varying line width, color, and geometry produces a funhouse effect.",
     arms: 3,
     layers: 1,
@@ -51,7 +51,7 @@ export const galleryItems: GalleryItem[] = [
   {
     id: "windswept",
     title: "Windswept",
-    description: "A dense form is progressively phase shifted. tinted and blurred.",
+    description: "A dense form is progressively phase shifted, tinted and blurred.",
     arms: 3,
     layers: 1,
     complexity: "simple",
@@ -131,7 +131,7 @@ export const galleryItems: GalleryItem[] = [
   {
     id: "plumage",
     title: "Plumage",
-    description: "Velvet neo-arcade colors and echoing feahers to attract any mate.",
+    description: "Velvet neo-arcade colors and echoing feathers to attract any mate.",
     arms: 3,
     layers: 3,
     complexity: "moderate",
@@ -150,7 +150,7 @@ export const galleryItems: GalleryItem[] = [
   },
   {
     id: "disco",
-    title: "Disco Chandalier",
+    title: "Disco Chandelier",
     description: "Staring upward at a white ball of healing light. That's right.",
     arms: 3,
     layers: 6,
@@ -171,7 +171,7 @@ export const galleryItems: GalleryItem[] = [
   {
     id: "hue-manity",
     title: "Huemanity",
-    description: "Most of the hues known to computer science, layered with pride above the bright glow our human joy to create.",
+    description: "Most of the hues known to computer science, layered with pride above the bright glow of our human joy to create.",
     arms: 3,
     layers: 1,
     complexity: "moderate",

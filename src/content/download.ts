@@ -1,13 +1,15 @@
+import { appStoreUrl } from "@/content/links";
+
 export const pageIntro = {
   heading: "Start Creating",
   subtext:
-    "Get started by installing Cyclomat, available for iPad or MacOS.",
+    "Get started by installing Cyclomat, made for iPad, and it also runs on Apple silicon Macs.",
 }
 
 export const installInvitation = {
   heading: "Easy Install",
   body: "No registration or purchase required. Get straight to play.",
-  cta: { label: "View on the App Store", href: "https://apps.apple.com/app/cyclomat/id6755161368" },
+  cta: { label: "View on the App Store", href: appStoreUrl },
 }
 
 export const invitation = {

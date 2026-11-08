@@ -7,6 +7,7 @@ import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { NavItem } from "@/lib/types";
+import { appStoreUrl } from "@/content/links";
 
 interface MobileNavProps {
   items: NavItem[];
@@ -66,7 +67,7 @@ export function MobileNav({ items }: MobileNavProps) {
                 </Link>
               ))}
               <Link
-                href="/download"
+                href={appStoreUrl}
                 onClick={() => setOpen(false)}
                 className="mt-3 rounded-full bg-primary px-4 py-3 text-center text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
               >

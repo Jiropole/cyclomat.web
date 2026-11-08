@@ -1,11 +1,12 @@
 import { FeatureCardData } from "@/lib/types";
+import { appStoreUrl } from "@/content/links";
 
 export const heroContent = {
   headline: "Draw with harmony, motion, and time",
   subtext:
     "Cyclomat transforms simple rotations into intricate geometric artwork. No equations needed — just curiosity and a sense of play.",
   cta: {
-    primary: { label: "Available for iPad or MacOS", href: "/download" },
+    primary: { label: "Get it on the App Store", href: appStoreUrl },
     secondary: { label: "Learn how it works", href: "/how-it-works" },
   },
 };

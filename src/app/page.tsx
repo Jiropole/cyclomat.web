@@ -11,6 +11,7 @@ import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import Image from 'next/image'
 import userInterfaceImage from '../../public/cyclomat-ui-perspective.png'
+import { appStoreUrl } from "@/content/links";
 
 export default function HomePage() {
   const showcaseItems = galleryItems.slice(0, 4);
@@ -115,7 +116,7 @@ export default function HomePage() {
       <CTASection
         heading="Ready to create something beautiful?"
         description="Start with a simple shape and discover what harmonic motion can do."
-        primaryCta={{ label: "Get the app", href: "/download" }}
+        primaryCta={{ label: "Get the app", href: appStoreUrl }}
         secondaryCta={{ label: "See the gallery", href: "/gallery" }}
       />
     </>

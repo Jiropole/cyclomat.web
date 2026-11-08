@@ -1,3 +1,5 @@
+import { appStoreUrl } from "@/content/links";
+
 export const aboutIntro = {
   heading: "About Cyclomat",
   subtext:
@@ -26,6 +28,6 @@ export const philosophy = [
 export const invitation = {
   heading: "Start exploring",
   body: "Cyclomat invites you to slow down, experiment, and discover beauty in the relationships between simple things. No experience necessary. Just curiosity.",
-  cta: { label: "Get the app", href: "/download" },
+  cta: { label: "Get the app", href: appStoreUrl },
   secondaryCta: { label: "Explore the gallery", href: "/gallery" },
 };

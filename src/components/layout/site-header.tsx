@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { MobileNav } from "./mobile-nav";
+import { appStoreUrl } from "@/content/links";
 
 const navItems = [
   { label: "How It Works", href: "/how-it-works" },
@@ -47,7 +48,7 @@ export function SiteHeader() {
 
         <div className="hidden md:block">
           <Link
-            href="/download"
+            href={appStoreUrl}
             className="rounded-full bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
           >
             Start Creating
