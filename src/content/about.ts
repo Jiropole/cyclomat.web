@@ -9,7 +9,7 @@ export const aboutIntro = {
 export const philosophy = [
   {
     heading: "Inspired by play",
-    body: "Cyclomat began with a simple memory: the quiet fascination of a spirograph on paper. The way simple gears could produce impossibly intricate patterns. The surprise when small changes created entirely new forms. We wanted to bring that same sense of wonder to a modern creative tool.",
+    body: "Cyclomat began with a simple memory: the quiet fascination of a spirograph on paper. The way simple gears could produce impossibly intricate patterns. The surprise when small changes created entirely new forms. I wanted to bring that same sense of wonder to a modern creative tool.",
   },
   {
     heading: "Math you can feel",
@@ -28,6 +28,11 @@ export const philosophy = [
     body: "The patterns Cyclomat creates aren't new. They echo forms found in nature, architecture, and centuries of mathematical art. Lissajous curves, rose curves, epitrochoids — these shapes have fascinated thinkers for hundreds of years. Cyclomat simply makes them accessible to everyone.",
   },
 ];
+
+export const maker = {
+  heading: "Made by",
+  body: "Cyclomat is designed and built by Jesse Hemingway at Octaveware LLC.",
+};
 
 export const invitation = {
   heading: "Start exploring",

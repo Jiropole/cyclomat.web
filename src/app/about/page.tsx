@@ -2,7 +2,7 @@ import { PageHero } from "@/components/marketing/page-hero";
 import { SectionWrapper } from "@/components/marketing/section-wrapper";
 import { CTASection } from "@/components/marketing/cta-section";
 import { FadeIn } from "@/components/ui/fade-in";
-import { aboutIntro, philosophy, invitation } from "@/content/about";
+import { aboutIntro, philosophy, maker, invitation } from "@/content/about";
 
 export default function AboutPage() {
   return (
@@ -21,6 +21,14 @@ export default function AboutPage() {
               </p>
             </FadeIn>
           ))}
+          <FadeIn index={philosophy.length}>
+            <h2 className="mb-4 text-2xl font-semibold tracking-tight">
+              {maker.heading}
+            </h2>
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              {maker.body}
+            </p>
+          </FadeIn>
         </div>
       </SectionWrapper>
 
