@@ -34,7 +34,7 @@ export default function HomePage() {
             src="/hero/editing-loop.mp4"
             poster="/hero/editing-poster.jpg"
             label="Screen recording of the Cyclomat editor: dragging a slider turns a plain circle into an intricate pattern"
-            className="aspect-[1280/930] rounded-2xl"
+            className="aspect-[1280/922] rounded-2xl"
           />
           <p className="mt-3 text-center text-sm text-muted-foreground">
             Drag a slider in the Cyclomat editor and the whole shape changes.
