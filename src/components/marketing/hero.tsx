@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
-import { HeroAnimation } from "./hero-animation";
+import { HeroLoop } from "./hero-loop";
 
 interface HeroProps {
   headline: string;
@@ -66,7 +66,7 @@ export function Hero({ headline, subtext, primaryCta, secondaryCta }: HeroProps)
           transition={{ duration: 1, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
           className="relative flex items-center justify-center"
         >
-          <HeroAnimation />
+          <HeroLoop />
         </motion.div>
       </div>
     </section>
